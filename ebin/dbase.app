@@ -1,0 +1,10 @@
+{application,dbase,
+             [{description,"An OTP application"},
+              {vsn,"0.1.0"},
+              {registered,[]},
+              {mod,{dbase_app,[]}},
+              {applications,[kernel,stdlib]},
+              {env,[]},
+              {modules,[dbase,dbase_app,dbase_lib,dbase_sup]},
+              {licenses,["Apache 2.0"]},
+              {links,[]}]}.
